@@ -1,0 +1,71 @@
+/* ===== Body Styles ==== */
+body
+{
+    font-family:Arial, sans-serif ;
+    text-align: center ;
+    background: #f4f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Header Styles ===== */
+header h1 
+{
+    background: #00aaff;
+    color: white ;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 32px;
+}
+
+/* ===== STATS PANEL ===== */
+#stats
+{
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background: #e0f7fa;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* ===== Button Styles ===== */
+button
+{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #00cc66;
+    color: white;
+    transition: 0.2s;
+}
+button:hover
+{
+    background-color: #009944;
+}
+
+/* ===== PATIENT CARDS ===== */
+.patient
+{
+    background: white;
+    margin: 10px auto;
+    padding: 15px; 
+    width: 300px;
+    border-radius: 0 4px 6px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
+.patient button 
+{
+    margin-top: 10px;
+}
+
+/* ===== Footer ===== */
+footer 
+{
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #777;
+}
