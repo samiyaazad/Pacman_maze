@@ -200,6 +200,13 @@ function move() {
         pacman.x += pacman.velocityX;
         pacman.y += pacman.velocityY;
 
+    if (pacman.x < -pacman.width) {
+        pacman.x = boardWidth;
+    }
+    else if (pacman.x > boardWidth) {
+        pacman.x = -pacman.width;
+    }
+
         for (let wall of  walls.values()) {
             if (collision(pacman, wall)) {
                 pacman.x -= pacman.velocityX;
@@ -376,5 +383,6 @@ class Block
         this.x = this.startX;
         this.y = this.startY;
     }
+
 
 }
